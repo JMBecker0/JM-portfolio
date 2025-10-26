@@ -1,0 +1,58 @@
+/* === Grundlayout === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6fa; /* helles Blau-Grau als Hintergrund */
+  color: #2f2f2f;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* === Kopfbereich === */
+header {
+  background-color: #3c6e91; /* kräftiges, aber ruhiges Blau */
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-style: italic;
+  font-size: 15px;
+}
+
+/* === Abschnitts-Container === */
+section {
+  background-color: #ffffff;
+  margin: 25px auto;
+  padding: 18px;
+  border-left: 6px solid #3c6e91; /* farbiger Balken für Wiedererkennung */
+  border-radius: 6px;
+  max-width: 800px;
+}
+
+/* === Überschriften === */
+h2 {
+  color: #3a4a5a;
+  text-align: center;
+  margin-top: 0;
+  background-color: #e8eef5;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+h3 {
+  color: #3c6e91;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+/* === Listen === */
+ul {
+  pa
